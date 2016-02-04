@@ -44,4 +44,4 @@ what if you could use a human readable shorthand to build user forms in plain te
 
 ### I don't know. 
 
-I think it would be pretty cool. In fact, if we could partner it with integrations like [IFTTT]("http://ifttt.com") I think it could be really useful.
+I think it would be pretty cool. In fact, if we could partner it with integrations like [IFTTT](http://ifttt.com) I think it could be really useful.
