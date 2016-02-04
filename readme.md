@@ -5,10 +5,10 @@ what if you could use a human readable shorthand to build user forms in plain te
 ## What if...
 
 - a text input was made like this? :: 
-    - with a label was made like this? [label]::
-    - with default text was made like this? [label] :: ("default text")
-    - with a label default text and a character limit was made like this? 
-        - [label] :: ("default text" 20)
+    - with a label like this? [label]::
+    - with default text like this? [label] :: ("default text")
+    - with a label, default text, and a character limit like this? 
+        - [label] :: ("default text" /20/)
     - with a custom validator was made like this? :: (/text/)
         - or this? ::(/email/)
         - or this, regex eh? ::(/*^[\d]+?$*/)
@@ -16,26 +16,32 @@ what if you could use a human readable shorthand to build user forms in plain te
     - a date input was made like this ::(mm/dd/yyyy)
     - a date range input was made like this ::(02/12/2014-mm/dd/yyyy)
 
-- different imputs was made like this? 
+- different input types were made like this? 
     - number keyboards ::(#)
     - email keyboards ::(@)
     - url keyboards ::(www)
     - password masking ::(*)
 
-- selects were made like this ::(-)
+- a select was made like this ::(-)
     : option 1 [value]
     : option 2 [value]
     :: option 3 default [value]
 
-- radio groups were made like this? ::(o)
+- a radio group was made like this? ::(o)
     : option 1 [value]
     : option 2 [value]
     :: option 3 default [value]
 
-- checkbox groups was made like this? ::([])
+- a checkbox group was made like this? ::([])
     : option 1 [value]
     : option 2 [value]
     :: option 3 default [value]
 
-- buttons were made like this {Send your form!}("post/url.html")
+- a button was made like this {Send your form!}("post/url.html")
+    - or like this? {Send your form!}(submit)
     - or like this? {Send your form!}{id}
+
+
+### I don't know. 
+
+I think it would be pretty cool. In fact, if we could partner it with integrations like [IFTTT](ifttt.com) I think it could be really useful.
