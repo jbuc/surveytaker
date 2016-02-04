@@ -10,11 +10,11 @@ what if you could use a human readable shorthand to build user forms in plain te
     - with a label default text and a character limit was made like this? 
         - [label] :: ("default text" 20)
     - with a custom validator was made like this? :: (/text/)
-    - or this? ::(/email/)
-    - or this, regex eh? ::(/*^[\d]+?$*/)
-    - range inputs was made like this ::(10-200)
-    - date inputs was made like this ::(mm/dd/yyyy)
-    - date range inputs was made like this ::(02/12/2014-mm/dd/yyyy)
+        - or this? ::(/email/)
+        - or this, regex eh? ::(/*^[\d]+?$*/)
+    - a range input was made like this ::(10-200)
+    - a date input was made like this ::(mm/dd/yyyy)
+    - a date range input was made like this ::(02/12/2014-mm/dd/yyyy)
 
 - different imputs was made like this? 
     - number keyboards ::(#)
@@ -38,4 +38,4 @@ what if you could use a human readable shorthand to build user forms in plain te
     :: option 3 default [value]
 
 - buttons were made like this {Send your form!}("post/url.html")
-- or like this? {Send your form!}{id}
+    - or like this? {Send your form!}{id}
